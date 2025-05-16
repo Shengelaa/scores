@@ -41,6 +41,7 @@ app.get("/items", async (req, res) => {
 });
 
 // POST endpoint: Create a new item
+// POST endpoint: Create a new item
 app.post("/items", async (req, res) => {
   const { name, score } = req.body;
 
