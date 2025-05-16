@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/items.js", 
+      "src": "api/items.js",
       "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/items",
-      "dest": "/api/items.js"
     }
   ]
 }
